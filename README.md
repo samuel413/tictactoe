@@ -8,13 +8,13 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 ## Day 1
 
 #### Planning
-- [ ] Complete the project planning document.
+- [x] Complete the project planning document.
 #### Set-Up
 - [x] Go to the repository at
-- [ ] Fork this repository to your github account and clone to a new workspace
+- [x] Fork this repository to your github account and clone to a new workspace
 - [ ] Add, commit, and push your changes
-- [ ] Make your site live on gh-pages
-- [ ] Submit your website using the link on the Agenda
+- [x] Make your site live on gh-pages
+- [x] Submit your website using the link on the Agenda
 
 ### JavaScript
 - [ ] Create a variable that keeps track of the current player and set it equal to either a string of "X" or "O"
@@ -53,3 +53,22 @@ In this unit, coders will create the classic game of tic tac toe in their browse
 * [Advanced Reference Table](https://docs.google.com/document/d/1SElvLDvtVOoYZJyR5XbCQJWbSTxyChDiQkz7n3c63Go/preview)
 * [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * [JQuery Events](http://api.jquery.com/category/events/)
+
+123
+456
+789
+147
+258
+369
+159
+357
+
+when a button is clicked, based on a flickering boolean (starts at false),
+the button is replaced with either an x or an o. the button then sets a
+specific boolean (numbered 1 through 9, each starting at undefined) to either
+true or false to show that it's claimed by an x or an o. after every move,
+the turn boolean flips and the program checks if any of the ten combinations
+listed above all have the same value. if they do, the game has been won by
+one side (specify for true win or false win). then check if any buttons
+are left unclicked (any booleans are still undefined, != true || != false)
+and if none are, it's a draw
