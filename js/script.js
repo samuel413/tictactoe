@@ -1,3 +1,12 @@
+var c1
+var c2
+var c3
+var c4
+var c5
+var c6
+var c7
+var c8
+var c9
 var cellArray = [c1, c2, c3, c4, c5, c6, c7, c8, c9]
 var winVert = [[c1, c4, c7], [c2, c5, c8], [c3, c6, c9]];
 var winHoriz = [[c1, c2, c3], [c4, c5, c6], [c7, c8, c9]];
