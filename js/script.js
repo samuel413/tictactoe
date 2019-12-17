@@ -15,8 +15,8 @@ var turn = 'X'
 var draw
 
 function checkVoctory(triple) {
-    if (triple[0] === triple[1] === triple[2] && triple[0] != null) {
-        return turn + 'Player Wins'
+    if (triple[0] === triple[1] && triple[0] === triple[2] && triple[0] != null) {
+        $('h1').text(turn + 'Player Wins');
         $(button).hide;
     }
 }
@@ -25,11 +25,11 @@ function checkEnd() {
     draw = 0;
     cellArray.forEach(function(cell) {
         if (cell != null) {
-            draw++;
+            draw = draw + 1;
         }
     })
     if (draw === 9) {
-        return 'DRAW'
+        $('h1').text('DRAW');
     } else {
         winVert.forEach(checkVoctory);
         winHoriz.forEach(checkVoctory);
