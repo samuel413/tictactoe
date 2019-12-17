@@ -49,45 +49,54 @@ function performLogic (button, tile) {
 
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
+    c1 = turn;
     checkEnd();
 });
 
 $("#button2").click(function() {
     performLogic("#button2","#tile2");
+    c2 = turn;
     checkEnd();
 });
 
 $("#button3").click(function() {
     performLogic("#button3","#tile3");
+    c3 = turn;
     checkEnd();
 });
 
 $("#button4").click(function() {
     performLogic("#button4","#tile4");
+    c4 = turn;
     checkEnd();
 });
 
 $("#button5").click(function() {
     performLogic("#button5","#tile5");
+    c5 = turn;
     checkEnd();
 });
 
 $("#button6").click(function() {
     performLogic("#button6","#tile6");
+    c6 = turn;
     checkEnd();
 });
 
 $("#button7").click(function() {
     performLogic("#button7","#tile7");
+    c7 = turn;
     checkEnd();
 });
 
 $("#button8").click(function() {
     performLogic("#button8","#tile8");
+    c8 = turn;
     checkEnd();
 });
 
 $("#button9").click(function() {
     performLogic("#button9","#tile9");
+    c9 = turn;
     checkEnd();
 });
